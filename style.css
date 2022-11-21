@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "PT Sans", sans-serif ;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+.nav_box {
+    font-family: "PT Sans", sans-serif;
+   
+}
+
+
+
+.nav { 
+    display: flex;
+    min-height: 60px;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 16px;
+    font-weight: 600
+}
+
+
+
+
+.nav_item {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 80px;
+    
+    
+    
+}
+.nav_item .logo {
+    flex-grow: 1;
+    
+   
+}
+
+.nav a {
+    text-decoration: none;
+    padding: 0 20px;
+    color: darkgrey;
+   
+    
+}
+.nav img{
+    margin: 0 10px;
+}
+
+/*
+----------------------------------
+ NAVIGACTION 
+ --------------------------------
+ */
+ .header_box {
+    background-image: url("./Images/kids_main.jpg") ;
+    flex-grow: 1;
+    
+    min-height: 700px;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+ }
+.header_item {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 700px;
+    min-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+    
+    
+}
+.header_item h1 {
+    font-size: 66px;
+    color: #fff;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    display: flex;
+   flex-shrink: 0;
+   
+}
+.header_item input {
+    border: 2px solid white;
+    background: transparent;
+    color: #fff;
+    padding:5px 10px;
+    font-size: 26px;
+    cursor: pointer;
+    max-width: 200px;
+} 
+/* 
+------------------------------------------------
+HEADER
+-----------------------------------------------
+ */
+ .section{
+    display: flex;
+    justify-content: center;
+ }
+ .section_box {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 2px;
+    max-width: 910px;
+    flex-grow: 1;
+    color: darkgrey;
+ }
+ .section_box h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+   
+ }
+ .section_box p {
+    font-size: 14px;
+    font-weight: 600;
+ }
+ .bot_para {
+    margin: 35px 0 80px 0 ;
+ }
+ .section_box a {
+    text-decoration: none;
+    color: #50b9e1;
+ }
+ /*
+ --------------------------------------
+  SECTION
+  ---------------------------------------
+   */
+   .content_box {
+    background-color: #50b9e1;
+    font-style: italic;
+    color:#fff ;
+    
+}
+.offerings {
+    font-size: 26px;
+    letter-spacing: 1px;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+.content_item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.content {
+    max-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    align-items:center ;
+    margin: 20px 40px 60px 40px;
+    line-height: 1.5;
+    
+}
+.content h3{
+    margin: 30px 0;
+    font-size: 20px;
+}
+/*
+-------------------------------
+ CONTENT 
+ -------------------------------
+ */
+ .section2_box {
+    
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-style: italic;
+        letter-spacing: 2px;
+        max-width: 910px;
+        flex-grow: 1;
+        color: darkgrey;
+     
+    
+ }
+ .upcoming {
+    font-size: 28px;
+    margin-bottom: 50px;
+    font-weight: 500;
+ }
+ .section2 p{
+    margin-bottom: 50px;
+        font-size: 14px;
+           font-weight: 400;
+ }
+ /*
+ ----------------------------
+  SECTION2
+  ---------------------------
+   */
+   .enroll_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+   }
+   
+   .enroll_box {
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+    max-width: 350px;
+    line-height: 1.5;
+    color: darkgrey;
+    
+    
+   }
+   .enroll {
+    border-bottom: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+   }
+   .date {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 5;
+    flex-wrap: wrap;
+
+   }
+   
+   .price{
+    padding: 2px;
+    background-color: #50b9e1;
+    color: #fff;
+    font-size: 20px;
+    flex-wrap: wrap;
+    margin: 0 0 10px;
+   }
+   .child {
+    display: flex;
+    flex-wrap: wrap;
+    
+   }
+   
+   .info_enroll {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+   }
+   .info_enroll p {
+    margin: 10px 0;
+   }
+   .press {
+    max-width: 130px;
+    background-color: transparent;
+    padding: 5px 10px;
+    color: #50b9e1;
+    border: #50b9e1 3px solid;
+    cursor: pointer;
+    margin-bottom: 60px;
+   }
+   /*
+   ----------------------------------
+    SECTION 3
+    --------------------------------
+     */
+     .end_box {
+        display: flex;
+        justify-content: space-around;
+        background-color: #50b9e1;
+        min-height: 50px;
+        align-items: center;
+        flex-wrap: wrap;
+     }
