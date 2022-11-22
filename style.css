@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "PT Sans", sans-serif ;
+    overflow-x: hidden;
 }
 .wrapper {
     max-width: 1200px;
@@ -345,10 +346,7 @@ HEADER
         }
      }
      @media screen and (max-width:800px) {
-        body{
-            
-            overflow: hidden;
-        }
+       
         .blog {
             position: absolute;
             right: 0px;
@@ -372,6 +370,7 @@ HEADER
         flex-direction: column;
         margin: 0 auto;
        }
+       
         
         
         .burger {
