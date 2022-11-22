@@ -310,7 +310,7 @@ HEADER
         align-items: center;
         flex-wrap: wrap;
      }
-     @media screen and (max-width:500px) {
+     @media screen and (max-width:800px) {
         .header_item {
             padding: 20px;
             font-size: 24px;
@@ -344,7 +344,7 @@ HEADER
             
         }
      }
-     @media screen and (max-width:500px) {
+     @media screen and (max-width:800px) {
         body{
             overflow-x: hidden;
         }
