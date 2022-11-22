@@ -13,16 +13,30 @@
     font-family: "PT Sans", sans-serif;
    
 }
+.logo a {
+    text-decoration: none;
+    color: black;
+}
 
 
-
-.nav { 
+.blog { 
     display: flex;
     min-height: 60px;
     align-items: center;
     flex-wrap: wrap;
     font-size: 16px;
     font-weight: 600
+}
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
+.burger div{
+width: 25px;
+height: 4px;
+background-color:rgb(34, 34, 34);
+margin: 5px;
 }
 
 
@@ -44,16 +58,23 @@
     
    
 }
+.social a img{
+    margin:0;
+    
+    
+   
+}
+.social a {
+    padding: 0;
+    
+}
 
-.nav a {
+.blog a {
     text-decoration: none;
-    padding: 0 20px;
+    padding: 0 15px;
     color: darkgrey;
    
     
-}
-.nav img{
-    margin: 0 10px;
 }
 
 /*
@@ -289,3 +310,73 @@ HEADER
         align-items: center;
         flex-wrap: wrap;
      }
+     @media screen and (max-width:500px) {
+        .header_item {
+            padding: 20px;
+            font-size: 24px;
+            text-align: center;
+        }
+        .header_item h1 {
+            font-size: 50px;
+        }
+        .logo h2{
+            display: flex;
+            justify-content: center;
+            
+        }
+        .logo img{
+            width: 18px;
+            height: 18px;
+            margin-top: 8px;
+        }
+        .social img {
+            padding-bottom: 10px;
+        }
+        .section_box {
+            margin: 40px 20px;
+        }
+    
+    }
+     @media screen and (max-width:1070px) {
+        .enroll_container {
+            flex-direction: column;
+            align-items: center;
+            
+        }
+     }
+     @media screen and (max-width:500px) {
+        body{
+            overflow-x: hidden;
+        }
+        .blog {
+            position: absolute;
+            right: 0px;
+            height: 30vh;
+            top: 80px;
+            background-color:#fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            width: 50%;
+            transform: translateX(100%);
+            transition: transform 0.7s ease-in ;  
+        }
+        .header_item .button {
+            
+            margin: 0 auto;
+        }
+       .content {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+       }
+        
+        
+        .burger {
+            display: block;
+        }
+    }
+    .nav-active {
+        transform: translateX(0%);
+    }
