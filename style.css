@@ -312,6 +312,9 @@ HEADER
         flex-wrap: wrap;
      }
      @media screen and (max-width:800px) {
+        *{
+            overflow-x: hidden;
+        }
         .header_item {
             padding: 20px;
             font-size: 24px;
