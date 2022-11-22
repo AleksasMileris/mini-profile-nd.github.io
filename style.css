@@ -346,7 +346,8 @@ HEADER
      }
      @media screen and (max-width:800px) {
         body{
-            overflow-x: hidden;
+            
+            overflow: hidden;
         }
         .blog {
             position: absolute;
